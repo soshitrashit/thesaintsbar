@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Saints Bar</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS Animation CSS -->
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    
+    <h1>The Saints Bar</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="reservation.html">Reserve</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION DENGAN GAMBAR + SCROLL EFFECT -->
+  <section class="hero">
+    <div class="overlay" data-aos="fade-up" data-aos-duration="1000">
+      <h2>Welcome to The Saints Bar</h2>
+      <p>Serving vibes, drinks, and memories.</p>
+    </div>
+  </section>
+
+  <section class="specials" data-aos="fade-up">
+    <h3>Tonight's Specials</h3>
+    <ul>
+      <li>Happy Hour All Night Long</li>
+      <li>10 Mugs RM130++ Only</li>
+      <li>Shots Tray For RM29.90</li>
+    </ul>
+  </section>
+
+  <section class="menu" data-aos="fade-up">
+    <h3>Our Signature Drinks</h3>
+    <div class="menu-items">
+      <div class="item">
+        <h4>Whiskey Sour</h4>
+        <p>Classic sour cocktail with a smooth finish.</p>
+      </div>
+      <div class="item">
+        <h4>Espresso Martini</h4>
+        <p>Bold coffee flavor, vodka kick, smooth crema.</p>
+      </div>
+      <div class="item">
+        <h4>Tequila Sunrise</h4>
+        <p>Sweet, citrusy, and perfect for night outs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="reservation" data-aos="fade-up">
+    <h3>Make a Reservation</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="datetime-local" required>
+      <button type="submit">Reserve Now</button>
+    </form>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>&copy; 2025 The Saints Bar. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
